@@ -1,0 +1,55 @@
+/* about.css */
+
+/* General Styles for the About Us section */
+.about-us {
+    width: 1000px; /* Maximum width for content */
+    margin: 20px auto; /* Center the section with margin */
+    padding: 70px; /* Padding inside the section */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.about-us h1 {
+    font-size: 2.5em; /* Larger font for main heading */
+    margin-bottom: 10px; /* Spacing below heading */
+    color: #2c3e50; /* Dark color for contrast */
+}
+
+.about-us h2 {
+    font-size: 1.8em; /* Slightly smaller font for subheadings */
+    margin-top: 20px; /* Top margin for spacing */
+    color: #2980b9; /* Color for subheadings */
+}
+
+.about-us p {
+    text-align: justify;
+    line-height: 1.6; /* Improved line height for readability */
+    margin: 10px 0; /* Spacing above and below paragraphs */
+    color: #34495e; /* Dark gray for text */
+}
+
+.about-us ul {
+    list-style-type: disc; /* Bullet points for list */
+    padding-left: 20px; /* Indentation for list items */
+    margin: 10px 0; /* Margin above and below the list */
+}
+
+.about-us ul li {
+    margin: 5px 0; /* Spacing between list items */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .about-us {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    .about-us h1 {
+        font-size: 2em; /* Smaller font size for headings */
+    }
+
+    .about-us h2 {
+        font-size: 1.5em; /* Smaller subheading size */
+    }
+}

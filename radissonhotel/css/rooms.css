@@ -1,0 +1,132 @@
+/* rooms.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Room Filter Section */
+.room-filter {
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width:900px; /* Center and limit width */
+}
+
+.room-filter h1 {
+    color: #004f94; /* Title color */
+    font-size: 32px; /* Increase font size for visibility */
+    margin-bottom: 10px;
+}
+
+.room-filter p {
+    color: #666666; /* Description text color */
+    font-size: 18px; /* Font size for better readability */
+    margin-bottom: 20px;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 20px; /* Space between options */
+}
+
+.filter-options label {
+    font-weight: bold;
+    color: #004f94; /* Label color */
+    margin-right: 10px; /* Space between label and select */
+}
+
+.filter-options select {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border for selects */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for selects */
+    color: #333; /* Text color */
+    transition: border-color 0.3s; /* Smooth border transition */
+}
+
+.filter-options select:focus {
+    outline: none; /* Remove default outline */
+    border-color: #004f94; /* Change border color on focus */
+}
+
+/* Room List Section */
+.room-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.room-card {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: calc(33% - 40px); /* Adjust width for responsiveness */
+    transition: transform 0.3s;
+}
+
+.room-card:hover {
+    transform: translateY(-5px);
+}
+
+.room-card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.room-card h3 {
+    color: #004f94;
+    padding: 10px;
+}
+
+.room-card p {
+    padding: 0 10px 10px;
+}
+
+/* Rates List */
+.room-card ul {
+    padding: 0 10px 10px;
+    list-style-type: none;
+}
+
+/* Button Styles */
+.btn-secondary {
+    display: block;
+    background: #004f94; /* Button color */
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #003366; /* Darker shade on hover */
+}
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .filter-options {
+        flex-direction: column; /* Stack options vertically on small screens */
+    }
+
+    .filter-options label {
+        margin-bottom: 5px; /* Space between label and select */
+    }
+}

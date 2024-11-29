@@ -1,0 +1,154 @@
+body {
+    background-image: url('assets/img/hotel.jpg');
+}
+
+.login-section {
+    background-position: center; /* Center the background image */
+    height: 610px;
+    width: 500px;
+    margin: auto;
+    padding-top: 100px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white; /* Change text color for contrast */
+}
+
+.hero-login {
+    background-color: rgba(253, 253, 253, 0.7); /* Semi-transparent background for readability */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+    text-align: center; /* Center the text */
+}
+
+h1 {
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space below the label */
+}h1 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space below the label */
+}
+
+input {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add some padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Round the edges */
+    margin-bottom: 10px; /* Space between input fields */
+}
+
+.btn-primary {
+    background-color: #003DA5; /* Primary button color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Round the edges */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.register-link {
+    margin-top: 15px; /* Space above the link */
+    color: #000000;
+}
+
+.register-link a {
+    color: #ffffff; /* Link color */
+    text-decoration: underline; /* Underline the link */
+}
+
+/* Login Form Styling */
+.login-form {
+    width: 100%;
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.login-form label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus {
+    border-color: #00539C;
+    outline: none;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00539C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #003d7a;
+}
+
+/* Register Link */
+.register-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #00539C;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .login-container {
+        padding: 20px 15px;
+    }
+
+    .login-form input[type="email"],
+    .login-form input[type="password"] {
+        font-size: 14px;
+    }
+
+    .login-form button {
+        font-size: 14px;
+    }
+}
